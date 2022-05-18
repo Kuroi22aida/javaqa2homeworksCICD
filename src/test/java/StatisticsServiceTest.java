@@ -17,6 +17,7 @@ public class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMax2() {
         StatisticsService service = new StatisticsService();
@@ -28,6 +29,7 @@ public class StatisticsServiceTest {
 
         assertEquals(expected, actual);
     }
+
     @Test
     void findMax3() {
         StatisticsService service = new StatisticsService();
